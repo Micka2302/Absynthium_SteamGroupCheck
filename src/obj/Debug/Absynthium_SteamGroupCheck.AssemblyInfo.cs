@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Absynthium_SteamGroupCheck")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a69121ea6b881c713957628f2a3fb8ec57c4071")]
 [assembly: System.Reflection.AssemblyProductAttribute("Absynthium_SteamGroupCheck")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Absynthium_SteamGroupCheck")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,10 +5,20 @@ on:
     tags:
       - "v*"
   workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Tag or version to release (ex: v1.2.3)"
+        required: true
+      release_name:
+        description: "Optional release title (defaults to tag)"
+        required: false
 
 jobs:
   build:
     runs-on: windows-latest
+    env:
+      RELEASE_TAG: ${{ (github.ref_type == 'tag' && github.ref_name) || github.event.inputs.release_tag }}
+      RELEASE_NAME: ${{ (github.ref_type == 'tag' && github.ref_name) || github.event.inputs.release_name || github.event.inputs.release_tag }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,9 +47,12 @@ jobs:
           path: Absynthium_SteamGroupCheck.zip
 
       - name: Publish release
-        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v1
         with:
           files: Absynthium_SteamGroupCheck.zip
+          tag_name: ${{ env.RELEASE_TAG }}
+          name: ${{ env.RELEASE_NAME }}
+          target_commitish: ${{ github.sha }}
+          fail_on_unmatched_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
