@@ -1,0 +1,9 @@
+{
+  "Prefix": "{darkblue}[Absynthium - Groupe]{white} ",
+  "MemberDetected": "{yellow}You are a member of the group: {lightgreen}{MemberGroups}. {yellow}You have the following permissions: {lightred}{Flags}",
+  "SteamIdUnavailable": "{red}Your SteamID isn't available yet.",
+  "GroupCheckMember": "{yellow}You are a member of the group: {lightgreen}{MemberGroups}. {yellow}You have the following permissions: {lightred}{Flags}",
+  "GroupCheckNotMember": "{red}You are not a member of our groups. Visit {green}{GroupUrls}",
+  "NonMemberAdvertisement": "{red}Join our Steam groups to unlock rewards! Visit {green}{GroupUrls}",
+  "GroupCheckUnknown": "{red}Failed to determine group membership right now."
+}

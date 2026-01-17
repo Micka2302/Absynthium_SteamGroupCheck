@@ -1,0 +1,15 @@
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\build\Absynthium_SteamGroupCheck.deps.json
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\build\Absynthium_SteamGroupCheck.dll
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\build\Absynthium_SteamGroupCheck.pdb
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\src\obj\Release\Absynthium_SteamGroupCheck.csproj.AssemblyReference.cache
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\src\obj\Release\Absynthium_SteamGroupCheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\src\obj\Release\Absynthium_SteamGroupCheck.AssemblyInfoInputs.cache
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\src\obj\Release\Absynthium_SteamGroupCheck.AssemblyInfo.cs
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\src\obj\Release\Absynthium_SteamGroupCheck.csproj.CoreCompileInputs.cache
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\src\obj\Release\Absynthium_SteamGroupCheck.dll
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\src\obj\Release\refint\Absynthium_SteamGroupCheck.dll
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\src\obj\Release\Absynthium_SteamGroupCheck.pdb
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\src\obj\Release\ref\Absynthium_SteamGroupCheck.dll
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\compiled\counterstrikesharp\plugins\Absynthium_SteamGroupCheck\Absynthium_SteamGroupCheck.deps.json
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\compiled\counterstrikesharp\plugins\Absynthium_SteamGroupCheck\Absynthium_SteamGroupCheck.dll
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\compiled\counterstrikesharp\plugins\Absynthium_SteamGroupCheck\Absynthium_SteamGroupCheck.pdb

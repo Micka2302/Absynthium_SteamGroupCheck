@@ -1,0 +1,22 @@
+{
+  "SteamApiKey": "REPLACE_ME",
+  "Language": "en",
+  "RequestTimeoutSeconds": 5,
+  "CacheDurationSeconds": 120,
+  "NonMemberAdIntervalMinutes": 5,
+  "EnableDebugLogging": false,
+  "Groups": [
+    {
+      "GroupId": "REPLACE_ME",
+      "GrantedFlag": "@abs/membre",
+      "Name": "Primary group",
+      "Priority": 100
+    },
+    {
+      "GroupId": "SECOND_GROUP_ID",
+      "GrantedFlag": "@vip",
+      "Name": "VIP",
+      "Priority": 50
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\micka\Documents\GitHub\build\Absynthium_SteamGroupCheck.deps.json
+C:\Users\micka\Documents\GitHub\build\Absynthium_SteamGroupCheck.dll
+C:\Users\micka\Documents\GitHub\build\Absynthium_SteamGroupCheck.pdb
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\obj\Debug\Absynthium_SteamGroupCheck.csproj.AssemblyReference.cache
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\obj\Debug\Absynthium_SteamGroupCheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\obj\Debug\Absynthium_SteamGroupCheck.AssemblyInfoInputs.cache
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\obj\Debug\Absynthium_SteamGroupCheck.AssemblyInfo.cs
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\obj\Debug\Absynthium_SteamGroupCheck.csproj.CoreCompileInputs.cache
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\obj\Debug\Absynthium_SteamGroupCheck.dll
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\obj\Debug\refint\Absynthium_SteamGroupCheck.dll
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\obj\Debug\Absynthium_SteamGroupCheck.pdb
+C:\Users\micka\Documents\GitHub\Absynthium_SteamGroupCheck\obj\Debug\ref\Absynthium_SteamGroupCheck.dll
