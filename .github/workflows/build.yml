@@ -16,9 +16,11 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+    permissions:
+      contents: write
     env:
-      RELEASE_TAG: ${{ (github.ref_type == 'tag' && github.ref_name) || github.event.inputs.release_tag }}
-      RELEASE_NAME: ${{ (github.ref_type == 'tag' && github.ref_name) || github.event.inputs.release_name || github.event.inputs.release_tag }}
+      RELEASE_TAG: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.release_tag) || (github.ref_type == 'tag' && github.ref_name) || '' }}
+      RELEASE_NAME: ${{ (github.event_name == 'workflow_dispatch' && (github.event.inputs.release_name || github.event.inputs.release_tag)) || (github.ref_type == 'tag' && github.ref_name) || '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -45,6 +47,12 @@ jobs:
         with:
           name: Absynthium_SteamGroupCheck
           path: Absynthium_SteamGroupCheck.zip
+
+      - name: Ensure release tag provided
+        if: env.RELEASE_TAG == ''
+        run: |
+          echo "::error::No release tag provided. Provide workflow_dispatch input 'release_tag' or trigger from a tag ref."
+          exit 1
 
       - name: Publish release
         uses: softprops/action-gh-release@v1
